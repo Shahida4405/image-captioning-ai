@@ -1,0 +1,10 @@
+tensorflow>=2.12
+numpy
+pandas
+Pillow
+matplotlib
+flask
+gradio
+tqdm
+nltk
+tensorflow-hub

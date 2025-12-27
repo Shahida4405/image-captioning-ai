@@ -1,0 +1,19 @@
+# Image Captioning using Deep Learning
+
+This project generates captions for images using CNN + LSTM.
+
+## Technologies Used
+- Python
+- TensorFlow / PyTorch
+- NLP
+- CNN (ResNet/VGG)
+- LSTM
+
+## How to Run
+1. Install requirements
+   pip install -r requirements.txt
+2. Run the model
+   python app.py
+
+## Output
+Generates a caption for the given image.
