@@ -1,19 +1,40 @@
 # Image Captioning using Deep Learning
 
-This project generates captions for images using CNN + LSTM.
+This project generates meaningful captions for images using deep learning,
+combining Computer Vision and Natural Language Processing.
+
+It supports two approaches:
+1. **CNN + LSTM**: Classic method using a CNN (ResNet/VGG) for feature extraction
+   and LSTM for caption generation.
+2. **BLIP (Bootstrapped Language-Image Pretraining)**: A modern transformer-based
+   model for state-of-the-art image captioning.
+
+---
 
 ## Technologies Used
 - Python
 - TensorFlow / PyTorch
 - NLP
-- CNN (ResNet/VGG)
+- CNN (ResNet / VGG)
 - LSTM
+- BLIP (transformer-based)
+
+---
+
+## Project Architecture
+### CNN + LSTM
+1. Image passed through CNN to extract features
+2. Features fed to LSTM network
+3. LSTM generates captions word by word
+
+### BLIP
+1. Image and text tokenized
+2. Transformer-based encoder-decoder processes both modalities
+3. Generates accurate captions leveraging pretraining
+
+---
 
 ## How to Run
-1. Install requirements
+1. Install dependencies  
+   ```bash
    pip install -r requirements.txt
-2. Run the model
-   python app.py
-
-## Output
-Generates a caption for the given image.
